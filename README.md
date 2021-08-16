@@ -1,6 +1,11 @@
 # Recruiting test to think-cell company
 test date: 15/08/2021
 
+## Comment to my solution
+The presented solution meets **three** out of four criteria. The criterion that was not passed is the **running time.** 
+To fix the error, you must additionally specify **the correct position** for inserting the pair (key, value) in the arguments of the **insert method.** 
+Then the operation time of the method will be reduced from O (log N) to **O (1).**
+
 ## Task Description
 interval_map<K, V> is a data structure that associates keys of type K with values of type V.
 It is designed to be used efficiently in situations where intervals of consecutive keys are associated with the same value.
@@ -44,7 +49,7 @@ Likewise, the first entry in m_map must not contain the same value as m_valBegin
 Many solutions we receive are incorrect. Consider using a randomized test to discover the cases that your implementation does not handle correctly.
 We recommend to implement a test function that tests the functionality of the interval_map, for example using a map of int intervals to char.
 
-Your task is to implement the function assign. Your implementation is graded by the following criteria in this order:
+Your task is to implement the function assign. Your implementation is graded by the following **criteria** in this order:
 
 **Type requirements are met:** You must adhere to the specification of the key and value type given above.
 **Correctness:** Your program should produce a working interval_map with the behavior described above. 
